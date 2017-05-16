@@ -1,0 +1,38 @@
+{
+  "name": "webpack-jquery",
+  "version": "0.1.1",
+  "description": "Proyecto de prueba con webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test",
+    "build": "echo Hola",
+    "menganito": "ls -ltr"
+  },
+  "keywords": [
+    "webpack",
+    "jquery",
+    "web",
+    "html",
+    "less"
+  ],
+  "author": "Jorge Esteban Zaragoza Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "jquery": "3.2.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.17.0"
+  },
+  "devDependencies": {
+    "webpack": "2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

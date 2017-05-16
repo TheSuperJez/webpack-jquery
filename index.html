@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JQuery WebPack
+        </title>
+        <script src="dist/bundle.js"></script>
+        </script>
+    </head>
+    <body onload="startApp();">
+        <h1>Formulario</h1>
+        <form id="formulario">
+        Nombre: <input id="nombre" type="text" pattern="[a-z A-Z]*." /> <br />
+        Edad: <input id="edad" type="number" max="90"/> <br />
+        Color: <input id="color" type="color" /> <br />
+        ID: <input id="id" type="text" pattern="[0-9]{3}-[A-Z]{2}[0-9]" /> <br />
+        <button type="submit" id="btnGuardar">Save</button><button type="reset">Cancel</button>
+        </form>
+    </body>
+</html>
