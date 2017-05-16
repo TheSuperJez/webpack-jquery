@@ -1,0 +1,35 @@
+//@import "archivoCSS";
+
+//less
+//Comentarios
+/*
+multilinea
+*/
+@ruta-imagenes: "./images";
+@color-principal: beige;
+@color-texto: darkgray;
+@titulo: #0000ff;
+
+.texto-sobresaliente {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+.funcionTamanio(@size @color) {
+    color: @color;
+    font-size: @size;
+}
+
+body {
+    background-color: @color-principal;
+    color: @color-texto;
+    #header {
+        @titulo: #ffffff;
+        .texto-sobresaliente;
+        #title{
+            font-size: 10px + 2px;
+            color:@titulo; 
+            background: url({@url-imagenes}/imagen.jpg);
+        }
+    }
+}
