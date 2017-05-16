@@ -11,6 +11,9 @@ module.exports = {
         port: 4444
     },
     watch: true,
+plugins: [
+        new ExtractTextPlugin("style.css"),
+    ],
     module: {
         rules: [{
                 test: /\.js$/,

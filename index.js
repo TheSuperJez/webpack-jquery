@@ -1,3 +1,5 @@
+require('./index.less');
+
 import * as $ from 'jquery';
 
 import {cambiarColor, suma, validarDatos} from './utilerias';
